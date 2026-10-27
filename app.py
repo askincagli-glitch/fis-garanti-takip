@@ -1,12 +1,11 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
+
 from google import genai
 from PIL import Image
 from pypdf import PdfReader
 
-# .env dosyasındaki değişkenleri yükle
-load_dotenv()
+
 
 # Streamlit sayfa ayarları
 st.set_page_config(page_title="Fiş & Garanti Takibi", page_icon="🧾")
